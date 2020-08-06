@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Bomberman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="start">
+                <button id="btn-start" class="btn btn-block btn-primary">Start</button>
+            </div>
+            <div id="game">
+                <div>Bombs: <span id="bombs"></span></div>
+
+                <div id="map" class="map"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
